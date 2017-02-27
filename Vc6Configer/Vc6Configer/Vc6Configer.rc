@@ -1,0 +1,396 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\Vc6Configer.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Vc6Configer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于..."
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Visual C++ 6.0 辅助配置工具",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009.10.18",IDC_STATIC,42,26,84,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_VC6CONFIGER_DIALOG DIALOGEX 0, 0, 319, 260
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Visual C++ 6.0 辅助配置工具  v1.0"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,7,88,305,153
+    CONTROL         135,IDC_STATIC,"Static",SS_BITMAP,8,7,305,78,WS_EX_STATICEDGE
+    CONTROL         "<a>HTTP://WwW.CcTry.CoM</a>",IDC_SYSLINK,"SysLink",WS_TABSTOP,209,244,83,9
+    LTEXT           "作者：Syc   2009.10.18    官方网站：-= VC 驿站 =-  →",IDC_STATIC_ABOUT,21,245,185,8,SS_NOTIFY
+END
+
+IDD_INCLUDE_DLG DIALOGEX 0, 0, 353, 152
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "添加",IDC1_ADD,170,6,56,14
+    PUSHBUTTON      "删除",IDC1_DEL,290,6,56,14
+    LTEXT           "项目选择：",IDC_STATIC,7,9,40,8
+    COMBOBOX        IDC1_FILEINDEX,48,7,112,90,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "目录浏览：",IDC_STATIC,7,25,40,8
+    EDITTEXT        IDC1_PATH,48,22,277,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC1_BROWSE,328,23,18,12
+    LISTBOX         IDC_LISTBOX,7,38,338,89,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "向上",IDC1_UP,242,131,50,14
+    PUSHBUTTON      "向下",IDC1_DOWN,297,131,50,14
+    PUSHBUTTON      "修改",IDC1_MODIFY,229,6,56,14
+END
+
+IDD_FONT_DLG DIALOGEX 0, 0, 353, 152
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定修改",IDC2_SET,20,125,93,16
+    LTEXT           "窗口选择：",IDC_STATIC,4,23,41,8
+    COMBOBOX        IDC2_SELWND,44,20,89,112,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "字体选择：",IDC_STATIC,4,41,41,8
+    COMBOBOX        IDC2_SELFONT,44,38,89,171,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "字体大小：",IDC_STATIC,5,59,40,8
+    COMBOBOX        IDC2_FONTSIZE,44,56,89,88,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC2_LISTCTRL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,135,7,211,138
+    LTEXT           "",IDC_STATIC_FONT,12,85,109,29,SS_NOTIFY,WS_EX_STATICEDGE
+    GROUPBOX        "示例",IDC_STATIC,5,74,122,46
+END
+
+IDD_COLOR_DLG DIALOGEX 0, 0, 353, 152
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "窗口选择：",IDC_STATIC,7,23,40,8
+    COMBOBOX        IDC3_SELWND,47,21,84,112,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "背景颜色：",IDC_STATIC,7,59,40,8
+    LTEXT           "文字颜色：",IDC_STATIC,7,42,40,8
+    PUSHBUTTON      "自定义",IDC3_CUS_FONTCOLOR,50,40,76,13
+    PUSHBUTTON      "自定义",IDC3_CUS_BGCOLOR,50,57,76,13
+    CONTROL         "",IDC3_COLORSHOW,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,135,7,211,138
+    CONTROL         "",IDC3_SHOW_EXAMPLE,"Static",SS_ETCHEDFRAME | SS_NOTIFY,12,85,111,25
+    PUSHBUTTON      "确定修改",IDC3_MODCOLOR,25,120,85,18
+    GROUPBOX        "示例",IDC_STATIC,6,75,124,40
+END
+
+IDD_PLUGIN_DLG DIALOGEX 0, 0, 353, 152
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "若需要进一步设定其他相关颜色信息，请安装此插件！",IDC_STATIC,11,20,205,9
+    LTEXT           "插件是国外的牛人写的，我只是写工具，请大家放心使用！",IDC_STATIC,11,36,220,8
+    PUSHBUTTON      "同意并加载插件",IDC_APPLY_COLOR_PLUGIN,15,107,84,15
+    LTEXT           "插件安装成功后，重新启动 Visual C++ 6.0，依次选择主菜单的：",IDC_STATIC,11,53,226,8
+    LTEXT           "Tools -> Options -> Format，之后就可以选择你喜欢的颜色啦！",IDC_STATIC,11,68,216,8
+    CONTROL         133,IDC_STATIC,"Static",SS_BITMAP,247,18,90,100
+    LTEXT           "安装后效果如右图：",IDC_STATIC,11,83,78,8
+    PUSHBUTTON      "卸载颜色插件",IDC_UN_COLOR_PLUGIN,103,107,84,15
+END
+
+IDD_CCTRY_DLG DIALOGEX 0, 0, 348, 146
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_EXPLORER,"{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,7,7,334,132
+END
+
+IDD_ABOUT_DLG DIALOGEX 0, 0, 348, 146
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           " 『 作    者: Syc  #  日期: 2009.10.18  #  QQ: 7657318   #   eMail: net_sy@sina.com.cn 』",IDC_STATIC,7,7,298,10,0,WS_EX_STATICEDGE
+    LTEXT           " 【 官方网站 】",IDC_STATIC,7,19,56,10,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "使用说明",IDC_USE_BTN,266,18,76,13
+    PUSHBUTTON      "免责声明",IDC_DUTY_BTN,266,32,76,13
+    LTEXT           " 【 官方升级 】",IDC_STATIC,7,32,56,10,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT,7,47,334,92,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+    CONTROL         "<a>Http://WwW.CcTry.CoM</a>",IDC_SYSLINK_ABOUT,"SysLink",WS_TABSTOP,68,19,88,10
+    CONTROL         "<a>http://www.cctry.com/thread-875-1-1.html</a>",IDC_SYSLINK_UPDATE,
+                    "SysLink",WS_TABSTOP,68,32,161,9
+END
+
+IDD_OPLUGIN_DLG DIALOGEX 0, 0, 348, 146
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "■ 如果大家对以上功能还不满足的话，这里面再给大家介绍两款 Visual C++ 6.0 的插件：\r\n\r\n\r\n【一】、Visual C++ 6.0 标签页插件 WndTabs ，支持类似 Visual Studio 2005/2008 标签页功能.",IDC_STATIC,7,20,334,35
+    LTEXT           "【二】、增强 Visual C++ 函数、变量、宏 等的定义查找、自动提示功能的 Visual Assist X ，这款插件可谓是大名鼎鼎啊，不仅适用于 Visual C++ 6.0 也适用于最新版的 Visual Studio 2005/2008.",IDC_STATIC,7,79,334,17
+    LTEXT           "详细说明及下载地址：",IDC_STATIC,7,58,81,8
+    LTEXT           "详细说明及下载地址：",IDC_STATIC,7,100,80,8
+    CONTROL         "<a>http://www.cctry.com/thread-159-1-1.html</a>",IDC_SYSLINK_WNDTABS,
+                    "SysLink",WS_TABSTOP,89,57,161,9
+    CONTROL         "<a>http://www.cctry.com/thread-160-1-1.html</a>",IDC_SYSLINK_VA,
+                    "SysLink",WS_TABSTOP,89,99,146,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "-=VC 驿站=- WwW.CcTry.CoM"
+            VALUE "FileDescription", "Visual C++ 6.0 辅助配置工具"
+            VALUE "FileVersion", "1.0"
+            VALUE "InternalName", "Vc6Configer.exe"
+            VALUE "LegalCopyright", " (C) <-=VC 驿站=- WwW.CcTry.CoM>  @ 保留所有权利。"
+            VALUE "OriginalFilename", "Vc6Configer.exe"
+            VALUE "PrivateBuild", "Beta Build 20091018"
+            VALUE "ProductName", "Visual C++ 6.0 辅助配置工具"
+            VALUE "ProductVersion", "1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_VC6CONFIGER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+
+    IDD_INCLUDE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 346
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_FONT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 346
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_COLOR_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 346
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_PLUGIN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 346
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_CCTRY_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 341
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_ABOUT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 341
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_OPLUGIN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 341
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\Plugin.bmp"
+IDB_TOP_BMP             BITMAP                  "res\\Top.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TRUE_COLOR_LIB
+//
+
+IDR_TRUE_COLOR_LIB      TRUE_COLOR_LIB          "res\\DevTrueColour.dll"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CCTRY_DLG DLGINIT
+BEGIN
+    IDC_EXPLORER, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x33c8, 0x0000, 0x1639, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\Vc6Configer.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
