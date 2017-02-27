@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{03FAF650-05E6-4D76-B0A7-4B6FA8104781}</ProjectGuid>
+    <RootNamespace>华民音乐播放器</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="About.h" />
+    <ClInclude Include="Add.h" />
+    <ClInclude Include="AddList.h" />
+    <ClInclude Include="AFlash.h" />
+    <ClInclude Include="HmPlayDlg.h" />
+    <ClInclude Include="LoadFile.h" />
+    <ClInclude Include="Minfo.h" />
+    <ClInclude Include="Mlist.h" />
+    <ClInclude Include="mmsys.h" />
+    <ClInclude Include="NewButton.h" />
+    <ClInclude Include="OList.h" />
+    <ClInclude Include="OSlider.h" />
+    <ClInclude Include="PlayList.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SetMusic.h" />
+    <ClInclude Include="Slider.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Stime.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Vslider.h" />
+    <ClInclude Include="华民音乐播放器.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="About.cpp" />
+    <ClCompile Include="Add.cpp" />
+    <ClCompile Include="AddList.cpp" />
+    <ClCompile Include="AFlash.cpp" />
+    <ClCompile Include="HmPlayDlg.cpp" />
+    <ClCompile Include="LoadFile.cpp" />
+    <ClCompile Include="Minfo.cpp" />
+    <ClCompile Include="Mlist.cpp" />
+    <ClCompile Include="mmsys.cpp" />
+    <ClCompile Include="NewButton.cpp" />
+    <ClCompile Include="OList.cpp" />
+    <ClCompile Include="OSlider.cpp" />
+    <ClCompile Include="PlayList.cpp" />
+    <ClCompile Include="SetMusic.cpp" />
+    <ClCompile Include="Slider.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Stime.cpp" />
+    <ClCompile Include="Vslider.cpp" />
+    <ClCompile Include="华民音乐播放器.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="华民音乐播放器.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="res\2.cur" />
+    <None Include="res\My.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="button\BoFang.png" />
+    <Image Include="button\BoFang1.png" />
+    <Image Include="button\BoFang2.png" />
+    <Image Include="button\c1.png" />
+    <Image Include="button\c2.png" />
+    <Image Include="button\c3.png" />
+    <Image Include="button\ch1.png" />
+    <Image Include="button\ch2.png" />
+    <Image Include="button\KuaiJin.png" />
+    <Image Include="button\KuaiJin1.png" />
+    <Image Include="button\KuaiJin2.png" />
+    <Image Include="button\KuaiTui.png" />
+    <Image Include="button\KuaiTui1.png" />
+    <Image Include="button\KuaiTui2.png" />
+    <Image Include="button\QuanPing.png" />
+    <Image Include="button\QuanPing1.png" />
+    <Image Include="button\QuanPing2.png" />
+    <Image Include="button\TingZhi.png" />
+    <Image Include="button\TingZhi1.png" />
+    <Image Include="button\TingZhi2.png" />
+    <Image Include="res\btype (1).png" />
+    <Image Include="res\btype (2).png" />
+    <Image Include="res\button (1).png" />
+    <Image Include="res\button (2).png" />
+    <Image Include="res\c1.png" />
+    <Image Include="res\c2.png" />
+    <Image Include="res\c3.png" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\l1.png" />
+    <Image Include="res\l2.png" />
+    <Image Include="res\l3.png" />
+    <Image Include="res\left1.png" />
+    <Image Include="res\left2.png" />
+    <Image Include="res\left3.png" />
+    <Image Include="res\list1.png" />
+    <Image Include="res\logo.ico" />
+    <Image Include="res\logo.png" />
+    <Image Include="res\logo1.png" />
+    <Image Include="res\logo~1.ico" />
+    <Image Include="res\playm1.png" />
+    <Image Include="res\playm2.png" />
+    <Image Include="res\playm3.png" />
+    <Image Include="res\png1.png" />
+    <Image Include="res\ptype.png" />
+    <Image Include="res\ptype1.png" />
+    <Image Include="res\p_c4.png" />
+    <Image Include="res\p_c5.png" />
+    <Image Include="res\p_c6.png" />
+    <Image Include="res\p_stop4.png" />
+    <Image Include="res\right1.png" />
+    <Image Include="res\right2.png" />
+    <Image Include="res\right3.png" />
+    <Image Include="res\s1.png" />
+    <Image Include="res\s2.png" />
+    <Image Include="res\s3.png" />
+    <Image Include="res\stop1.png" />
+    <Image Include="res\stop2.png" />
+    <Image Include="res\stop3.png" />
+    <Image Include="res\Volume.png" />
+    <Image Include="res\wj (1).png" />
+    <Image Include="res\wj (2).png" />
+    <Image Include="res\华民音乐播放器.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="华民音乐播放器.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="自绘源">
+      <UniqueIdentifier>{f164566e-9496-429d-abef-fb51fe3a0684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="自绘头">
+      <UniqueIdentifier>{b139e669-dfd2-4c40-b903-12926af6f643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="调用文件">
+      <UniqueIdentifier>{bfea38cd-eee8-4808-8336-cfff2f60fcd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="华民音乐播放器.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HmPlayDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewButton.h">
+      <Filter>自绘头</Filter>
+    </ClInclude>
+    <ClInclude Include="mmsys.h">
+      <Filter>调用文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetMusic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>自绘头</Filter>
+    </ClInclude>
+    <ClInclude Include="Stime.h">
+      <Filter>自绘头</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OList.h">
+      <Filter>自绘头</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OSlider.h">
+      <Filter>自绘头</Filter>
+    </ClInclude>
+    <ClInclude Include="Minfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vslider.h">
+      <Filter>自绘头</Filter>
+    </ClInclude>
+    <ClInclude Include="AFlash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Add.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="华民音乐播放器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HmPlayDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewButton.cpp">
+      <Filter>自绘源</Filter>
+    </ClCompile>
+    <ClCompile Include="mmsys.cpp">
+      <Filter>调用文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetMusic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>自绘源</Filter>
+    </ClCompile>
+    <ClCompile Include="Stime.cpp">
+      <Filter>自绘源</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mlist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OList.cpp">
+      <Filter>自绘源</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OSlider.cpp">
+      <Filter>自绘源</Filter>
+    </ClCompile>
+    <ClCompile Include="Minfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vslider.cpp">
+      <Filter>自绘源</Filter>
+    </ClCompile>
+    <ClCompile Include="AFlash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Add.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="华民音乐播放器.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\华民音乐播放器.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\logo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\logo~1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\png1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\c1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\c2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\c3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\left1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\left2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\left3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\playm1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\playm2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\playm3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\right1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\right2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\right3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\stop1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\stop2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\stop3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\p_stop4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\p_c4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\p_c5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\p_c6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\BoFang.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\BoFang1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\BoFang2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\KuaiJin.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\KuaiJin1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\KuaiJin2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\KuaiTui.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\KuaiTui1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\KuaiTui2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\QuanPing.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\QuanPing1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\QuanPing2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\TingZhi.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\TingZhi1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\TingZhi2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\c1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\c2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\c3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\l1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\l2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\l3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\logo.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\ch1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="button\ch2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Volume.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\wj (1).png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\wj (2).png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\btype (1).png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\btype (2).png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ptype.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ptype1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\logo1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\list1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\button (1).png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\button (2).png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
